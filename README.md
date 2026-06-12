@@ -1,72 +1,38 @@
-# 🏨 Chatbot Hotel Booking Assistant
+# VoiceAI Assistant 🎙️🤖
 
-## 📌 Overview
-
-Chatbot Hotel Booking Assistant is an AI-powered application designed to simplify hotel reservations through natural conversations. Users can interact with the chatbot to explore hotels, check availability, and receive booking assistance quickly and efficiently.
+An advanced, conversational Personal Voice AI Assistant that can listen, think, and speak back with ultra-realistic human-like voices. This project integrates cutting-edge AI models for Speech-to-Text (STT), Natural Language Processing (NLP), and Text-to-Speech (TTS).
 
 ---
 
-## ✨ Features
+## 🚀 Features
 
-* 🤖 AI-powered conversational assistant
-* 🏨 Hotel search and booking support
-* 📅 Check room availability
-* 💬 User-friendly chat interface
-* ⚡ Fast and scalable architecture
-* 🔧 Easy to customize and extend
+*   **Speech-to-Text (STT):** Powered by **OpenAI Whisper** for highly accurate voice recognition.
+*   **Brain/AI Logic:** Powered by **OpenAI GPT** models to understand context and generate smart responses.
+*   **Text-to-Speech (TTS):** Powered by **ElevenLabs** for emotional, expressive, and realistic voice output.
+*   **Real-time Conversation:** Low-latency pipeline for a smooth voice-to-voice experience.
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-* Python
-* FastAPI / Flask (depending on implementation)
-* HTML/CSS/JavaScript (Frontend)
-* AI/LLM Integration
-* Git & GitHub
+*   **Language:** Python 🐍
+*   **STT & LLM:** OpenAI API (Whisper & GPT)
+*   **TTS:** ElevenLabs API
 
 ---
 
-## 📂 Project Structure
+## 📋 Prerequisites
 
-```text
-chatbot_hotel_booking/
-│
-├── backend/
-├── frontend/
-├── requirements.txt
-├── main.py
-└── README.md
-```
+Before running the project, make sure you have:
+1. Python installed (version 3.8 or higher).
+2. An **OpenAI API Key** (from [OpenAI](https://platform.openai.com/)).
+3. An **ElevenLabs API Key** (from [ElevenLabs](https://elevenlabs.io/)).
 
 ---
 
-## 🚀 Installation
+## 🔧 Installation & Setup
 
+1. **Clone the repository:**
 ```bash
-git clone <repository-url>
-
-cd chatbot_hotel_booking
-
-pip install -r requirements.txt
-
-python main.py
-```
-
----
-
-## 🎯 Future Improvements
-
-* User authentication
-* Payment gateway integration
-* Multi-language support
-* Voice assistant support
-* Real-time hotel APIs
-
----
-
-## 👨‍💻 Author
-
-**Muhammad Usman**
-
-Feel free to contribute, fork, or star this repository if you find it useful.
+   git clone [https://github.com/YOUR_USERNAME/VoiceAI-Assistant.git](https://github.com/YOUR_USERNAME/VoiceAI-Assistant.git)
+   cd VoiceAI-Assistant
